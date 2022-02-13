@@ -7,13 +7,21 @@ import java.util.Map;
 
 class Fib {
 
+
+    //example: fib(5)
+
+//                5
+//             4       3
+//            3  2    2 1
+//           2 1
+// n = height = 4
     @Test
     public void test() {
         System.out.println(fib(20, new HashMap<>()));
     }
 
 
-    //time: O(2*n) space:O(n)
+    //time: O(2^n) space:O(n)
     private int fib(int num) {
         if (num <= 2) {
             return 1;
