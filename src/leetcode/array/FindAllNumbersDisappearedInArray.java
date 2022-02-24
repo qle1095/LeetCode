@@ -27,7 +27,7 @@ public class FindAllNumbersDisappearedInArray {
 
         List<Integer> missingNumbers = new ArrayList<>();
         for (int i = 1; i < arr.length; i++) {
-            if (arr[i] == false) {
+            if (!arr[i]) {
                 missingNumbers.add(i);
             }
         }
