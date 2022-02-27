@@ -8,7 +8,6 @@ public class BestTimeToBuyAndSellStock {
         System.out.println(maxProfit(new int[]{7, 1, 5, 3, 4, 2}));
     }
 
-
     private int maxProfit(int[] prices) {
         //keep track of lowest number
         int lowest = Integer.MAX_VALUE;
